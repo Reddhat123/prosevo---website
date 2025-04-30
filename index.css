@@ -198,7 +198,7 @@ button {
 
 .box3 {
     width: 30%;
-    height: 400px;
+    height: 350px;
     background-color: rgba(0, 0, 0, 0.727);
     border-radius: 10px;
     display: flex;
@@ -209,7 +209,7 @@ button {
 
 .box4 {
     width: 30%;
-    height: 400px;
+    height: 350px;
     background-color: rgba(0, 0, 0, 0.727);
     border-radius: 10px;
 }
