@@ -221,12 +221,22 @@ button {
     margin-top: 5px;
     font-family: "Bricolage Grotesque", sans-serif;
 }
+.shade{
+    height: 500px;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
 .main65{
     display: flex;
     justify-content: space-between;
 }
+.text6{
+    color: white;
+}
 label{
-    color: black; font-weight: bold;
+    color:white;
+     font-weight: bold;
 
 }
 input{
