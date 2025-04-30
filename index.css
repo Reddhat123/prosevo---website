@@ -22,17 +22,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 5px;
     font-family: "Bricolage Grotesque", sans-serif;
+    position: sticky;
+    top: 0;
 
 
 }
 
 .name {
     margin: 0 0 5px 10px;
-    
-    
 }
 
 .options {
@@ -364,11 +362,13 @@ a{
 
     .boxes3 {
         flex-direction: column;
+        align-items: center;
     }
 
     .box3,
     .box4 {
-        width: 100%;
+        width: 80%;
+        
     }
     .main6{
         height: 690px;
@@ -386,7 +386,10 @@ a{
     .text6{
         color: white;
     }
-
+    .main3{
+        padding: 0 0 10px 0 ;
+        height: 560px;
+    }
 
 }
 
