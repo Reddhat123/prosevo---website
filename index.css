@@ -15,7 +15,7 @@
 .blackshade{
     width: 100%;
     height: 515px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -235,9 +235,7 @@ button {
 }
 .shade{
     height: 500px;
-    
-    background-color: rgba(0, 0, 0, 0.635);
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.701);
 }
 .main65{
     display: flex;
@@ -277,6 +275,7 @@ input{
 }
 .footer{
     width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.744);
     font-family: "Bricolage Grotesque", sans-serif;
     display: flex;
@@ -295,9 +294,7 @@ input{
     display: flex;
     gap: 30px;
 }
-a{
-    text-decoration: none;
-}
+
 .foot{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.744);
@@ -312,17 +309,31 @@ a{
     display: flex;
     gap: 10px;
 }
+.form{
+    padding: 0 70px 0 0 ;
+}
+.text6{
+    padding: 50px 0 0 70px;
+}
 @media screen and (max-width:1100px) {
   .main3{
     padding-top: 30px;
   }  
+  .box2{
+    width: 400px;
+  }
+  .image6{
+    width: 350px;
+    height: 350px;
+  }
   .text2{
     width: 60%;
 
   }
 .image2{
-    width: 85%;
+    width: 90%;
     height: 75%;
+    margin: 60px 0 0 20px;
     
 }
 .div2{
@@ -332,6 +343,7 @@ a{
     padding: 20px 0 0 30px;
 }
     .main3{
+        padding: 100px 0 0 0;
         .boxes{
             width: 400px;
         }
@@ -340,6 +352,66 @@ a{
         height: 350px;
     }
 }
+@media screen and (max-width:830px) {
+    .div2a{
+        padding: 30px 0 0 0;
+    }
+    .main3{
+        height: 1100px;
+        padding: 300px 0 0 0;
+    }
+    .box3,.box4{
+        height: 600px;
+        width: 90%;
+        
+    }
+    .box3{
+        padding: 0 40px 0 40px ;
+    }
+    .boxes3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main2{
+        flex-direction: column;
+        padding: 250px 0 0 0;
+    }
+    .text2{
+        width: 95%;
+    }
+    .image2{
+        width: 50%;
+        height: 80%;
+        margin:100px 0 0 0;
+
+    }
+    .box2{
+        width: 350px;
+        height: 250px;
+    }
+    .main4{
+        height: 700px;
+
+    }
+    .main45{
+        height: 670px;
+    }
+    .input,input,.btn1{
+        width: 300px;
+}
+.text6{
+    padding: 50px 0 0 30px;
+    width: 55%;
+}
+.form{
+    padding: 0 20px 0 0;
+}
+.shade{
+    height: 500px;
+}
+
+    }
+
 
 @media screen and (max-width:600px) {
     .child {
@@ -358,10 +430,7 @@ a{
     .text{
         padding: 0 0 20px 0;
     }
-    .image{
-       margin: ;
-    }
-
+    
     .main {
         width: 100%;
         height: 1110px;
@@ -429,7 +498,7 @@ a{
         
     }
     .main6{
-        height: 690px;
+        height: 700px;
         margin: 5px 0 0 0 ;
     }
     .main65{
@@ -450,6 +519,9 @@ a{
     }
 
 }
+
+
+
 
 @media screen and (max-width:460px) {
     .boxes {
